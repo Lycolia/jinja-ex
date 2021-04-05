@@ -1,0 +1,6 @@
+site_name: example site
+items:
+  - subject: list subject1
+    context: foo
+  - subject: list subject2
+    context: bar

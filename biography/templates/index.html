@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>{{ site_name }}</title>
+</head>
+<body>
+<ul>
+{%- for itm in items %}
+    <li>
+      <h2>{{- itm.subject }}</h2>
+      <div>{{- itm.context }}</div>
+    </li>
+{%- endfor %}
+</ul>
+</body>
+</html>
